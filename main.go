@@ -15,7 +15,7 @@ var page = template.Must(template.New("T").Parse(`
 </form>
 
 <p>Your message was:</p>
-<div id=dest></div>
+<div id=dest style="background: gray"></div>
 
 <script>
 var data = {{.}};
